@@ -1,3 +1,14 @@
+.error_message {
+  color: red;
+  font-size: 24px;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 0; }
+  50% { opacity: 1; }
+}
+
 *{
   margin: 0;
   padding: 0;
